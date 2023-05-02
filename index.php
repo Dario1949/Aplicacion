@@ -11,7 +11,7 @@
 </head>
 <body>
     
-<form>
+<form method="POST" action="registrar.php">
 <div class="mb-3">
     <label for="identificador" class="form-label">Identificador</label>
     <input type="text" class="form-control" id="identificador" name="identificador">
@@ -20,13 +20,13 @@
 
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nombre</label>
-    <input type="nombre" class="form-control" id="nombre" >
+    <input type="nombre" class="form-control" id="nombre" name="nombre" >
    
   </div>
 
   <div class="mb-3">
     <label for="detalle" class="form-label">Detalle</label>
-    <input type="detalle" class="form-control" id="detalle">
+    <input type="detalle" class="form-control" id="detalle" name="detalle" >
   </div>
 
   <div class="mb-3 form-check">
